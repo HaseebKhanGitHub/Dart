@@ -46,3 +46,42 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+------------------------------------------------------------------------------
+pubspec.yaml file
+make directory in project folder then make another directory in it with name images 
+
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+----------------------------------------------------------------------------
+Create Project (New)
+browse cmd to D drrive by using command  D:
+then browse to specific folder e.g., flutter_projects/
+then write command flutter create Flutter_project_name
+
+-----------------------------------------------------------------------------
+Add Fonts in yaml
+
+Download font 
+copy ttp file
+paste it into assets/fonts folder
+
+change in yaml file
+
+  fonts:
+    - family: FontMain
+      fonts:
+        - asset: assets/fonts/Oswald-Bold.ttf
+
+------------------------------------------------------------------------------
+
+
